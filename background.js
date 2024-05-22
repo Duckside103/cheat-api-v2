@@ -5,8 +5,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
     undefined,
     { format: "jpeg", quality: 50 },
     async (data) => {
-      console.log(">> Check | chrome.tabs.captureVisibleTab | data:", data);
-      await fetch("http://localhost:3000/question/", {
+      await fetch("https://smart-guy.vercel.app/question/", {
         method: "post",
         headers: {
           "Content-Type": "application/json",

@@ -26,7 +26,7 @@ console.log("POPUP", chrome.tabs, chrome.runtime);
 
 // chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 //   chrome.tabs.captureVisibleTab(async (data) => {
-//     await fetch("http://localhost:3000/question/", {
+//     await fetch("https://smart-guy.vercel.app/question/", {
 //       method: "post",
 //       headers: {
 //         "Content-Type": "application/json",

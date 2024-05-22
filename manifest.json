@@ -13,7 +13,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://www.npmjs.com/*"],
+      "matches": ["https://www.npmjs.com/*", "https://www.onlinevarsity.com/*"],
       "js": ["content.js"]
     }
   ]
